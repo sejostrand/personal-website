@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.section-visible {
+  max-height: 2000px;
+}
+
+.section-hidden {
+  max-height: 0px;
+}
+.section-transition {
+  -webkit-transition: max-height 0.3s ease-in-out;
+  -moz-transition: max-height 0.3s ease-in-out;
+  -o-transition: max-height 0.3s ease-in-out;
+  -ms-transition: max-height 0.3s ease-in-out;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.bg-blur {
+  backdrop-filter: blur(6px);
+}
+
+.glass-hover:hover {
+  --tw-backdrop-opacity: opacity(0.2);
+}
+
+.dark-cover {
+  background-image: url('./img/dark-cover.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: all 150ms ease-in-out;
+}
+
+.light-cover {
+  background-image: url('./img/light-cover.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: all 150ms ease-in-out;
+}
+
+.theme-toggle-button {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+}
+
+.theme-toggle-button-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+}
+
+.content-section {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* This fires as soon as the element enters the dorm */
+.content-section-transition-enter,
+.content-section-transition-appear {
+  /*We give the list the initial dimension of the list button*/
+  top: 0;
+  width: 120px;
+  max-height: 40px;
+  color: transparent;
+  background-color: #5a564c;
+}
+/* This is where we can add the transition*/
+.content-section-transition-enter-active,
+.content-section-transition-appear-active {
+  top: 45px;
+  width: 200px;
+  max-height: 200px;
+  background-color: #9e8949;
+  transition: all 400ms;
+}
+
+/* This fires as soon as the this.state.showList is false */
+.content-section-transition-exit {
+  top: 45px;
+  width: 200px;
+  max-height: 200px;
+  background-color: #9e8949;
+}
+/* fires as element leaves the DOM*/
+.content-section-transition-exit-active {
+  top: 0;
+  width: 120px;
+  max-height: 40px;
+  color: transparent;
+  background-color: #5a564c;
+  transition: all 400ms;
+}
