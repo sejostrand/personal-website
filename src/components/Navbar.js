@@ -36,17 +36,17 @@ const Navbar = (props) => {
       '
     >
       <div
-        onClick={() => props.toTop()}
         class='
           flex flex-nowrap
           w-full
           bg-blur bg-gray-900 bg-opacity-70
           px-6
           py-3
-          cursor-pointer
         '
       >
-        Sebastian Strand
+        <div class='cursor-pointer' onClick={() => toTopMobile()}>
+          Sebastian Strand
+        </div>
       </div>
 
       <div id='nav-menu' class='flex flex-row md:visible flex-nowrap'>
@@ -113,16 +113,16 @@ const Navbar = (props) => {
       '
     >
       <div
-        onClick={() => toTopMobile()}
         class='
           flex flex-nowrap
           w-full
           px-6
           py-3
-          cursor-pointer
         '
       >
-        Sebastian Strand
+        <div class='cursor-pointer' onClick={() => toTopMobile()}>
+          Sebastian Strand
+        </div>
       </div>
 
       <div onClick={() => toggleNavbar()} class='absolute right-2 z-20'>
