@@ -140,7 +140,7 @@ const Navbar = (props) => {
         </div>
       </div>
 
-      <div class='my-auto flex flex-col flex-nowrap text-2xl'>
+      <div class='mt-35vh flex flex-col flex-nowrap text-2xl'>
         <div
           onClick={() => props.toLinkMobile('about')}
           class='
