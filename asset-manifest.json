@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.79fef474.chunk.css",
+    "main.css": "/personal-website/static/css/main.433de050.chunk.css",
     "main.js": "/personal-website/static/js/main.819f46d2.chunk.js",
     "main.js.map": "/personal-website/static/js/main.819f46d2.chunk.js.map",
     "runtime-main.js": "/personal-website/static/js/runtime-main.0a3033b8.js",
@@ -10,7 +10,7 @@
     "static/js/3.039dadfb.chunk.js": "/personal-website/static/js/3.039dadfb.chunk.js",
     "static/js/3.039dadfb.chunk.js.map": "/personal-website/static/js/3.039dadfb.chunk.js.map",
     "index.html": "/personal-website/index.html",
-    "static/css/main.79fef474.chunk.css.map": "/personal-website/static/css/main.79fef474.chunk.css.map",
+    "static/css/main.433de050.chunk.css.map": "/personal-website/static/css/main.433de050.chunk.css.map",
     "static/js/2.04875c90.chunk.js.LICENSE.txt": "/personal-website/static/js/2.04875c90.chunk.js.LICENSE.txt",
     "static/media/App.css": "/personal-website/static/media/light-cover.a443ec97.jpg",
     "static/media/porsche.ef2b6a6d.jpg": "/personal-website/static/media/porsche.ef2b6a6d.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.0a3033b8.js",
     "static/js/2.04875c90.chunk.js",
-    "static/css/main.79fef474.chunk.css",
+    "static/css/main.433de050.chunk.css",
     "static/js/main.819f46d2.chunk.js"
   ]
 }
