@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = (props) => {
   return (
     <div class='flex flex-col items-center justify-center bg-gradient-to-b from-transparent to-black w-full h-48'>
-      <div class='md:flex-row flex-col text-lg flex m-4 text-white'>
+      <div class='flex-row flex-wrap justify-center text-lg flex m-4 text-white'>
         <a
           onClick={() => props.toTop()}
           class='hover:bg-opacity-10 mb-1 mx-2 py-1 px-6 rounded-full bg-blur bg-black bg-opacity-50 cursor-pointer'
