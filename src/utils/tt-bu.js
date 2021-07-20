@@ -7,7 +7,6 @@ const ToggleTheme = (props) => {
       document.getElementById('theme-toggle').classList.add('bg-yellow-500');
       document.getElementById('bg-cover').classList.remove('dark-cover');
       document.getElementById('bg-cover').classList.add('light-cover');
-      document.getElementsByClassName();
     } else {
       document.getElementById('theme-toggle').classList.remove('bg-yellow-500');
       document.getElementById('theme-toggle').classList.add('bg-gray-900');

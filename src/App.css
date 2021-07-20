@@ -39,13 +39,15 @@ code {
   background-image: url('./img/dark-cover.jpg');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: auto 115vh;
   background-attachment: fixed;
   transition: all 150ms ease-in-out;
 }
 
 .light-cover {
   background-image: url('./img/light-cover.jpg');
-  background-position: center;
+  background-position: top;
+  background-size: auto 115vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   transition: all 150ms ease-in-out;
