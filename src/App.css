@@ -42,6 +42,10 @@ code {
   background-size: cover;
   background-attachment: fixed;
   transition: all 150ms ease-in-out;
+
+  @media (max-width: 600px) (max-width) {
+    background-size: 100vh auto;
+  }
 }
 
 .light-cover {
@@ -51,6 +55,10 @@ code {
   background-repeat: no-repeat;
   background-attachment: fixed;
   transition: all 150ms ease-in-out;
+
+  @media (max-width: 600px) (max-width) {
+    background-size: 100vh auto;
+  }
 }
 
 .theme-toggle-button {
