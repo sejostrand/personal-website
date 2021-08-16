@@ -18,7 +18,6 @@ const Navbar = (props) => {
 
   const toTopMobile = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    toggleNavbar();
   };
 
   const desktopNav = (

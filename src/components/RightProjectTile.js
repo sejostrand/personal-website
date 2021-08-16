@@ -1,5 +1,5 @@
 import React from 'react';
-import yachtdropCover from '../img/porsche.jpg';
+import screenshot from '../img/la-compania.jpg';
 import { SiGithub } from 'react-icons/si';
 import TechPill from './TechPill';
 import { MdWeb } from 'react-icons/md';
@@ -29,7 +29,7 @@ const RightProjectTile = (props) => {
         </div>
       </div>
       <img
-        src={yachtdropCover}
+        src={screenshot}
         class='absolute z-0 h-64 rounded-lg transform -translate-y-32 lg:translate-x-80 lg:translate-y-0'
       />
     </div>

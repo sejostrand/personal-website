@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import LeftProjectTile from './LeftProjectTile';
 import RightProjectTile from './RightProjectTile';
-import yachtdropCover from '../img/porsche.jpg';
+import yachtdropCover from '../img/yachtdrop.jpg';
+import lacompaniaCover from '../img/la-compania.jpg';
 
 const ProjectsContent = () => {
   const projects = [
     {
       title: 'Yachtdrop',
       content:
-        'and no space is created for the element in the page block established by the viewport, except when one of its ancestors has a transform, perspective, ',
+        'Ecommerce platform for yacht provisioning. Features include: cms for managing data, dynamic product filtering, shopping cart, user registration and authentication, favourite products, order creation and order history.',
       tech: [
         { tag: 'React.js', caption: 'React Hooks, Styled-components, Axios' },
         { tag: 'Strapi', caption: 'Headless-CMS powered by Node.js' },
@@ -21,14 +22,14 @@ const ProjectsContent = () => {
     {
       title: 'La Compañía',
       content:
-        'and no space is created for the element in the page block established by the viewport, except when one of its ancestors has a transform, perspective, ',
+        'Website built with a CMS included for a marketing agency. Built in accordance to the design provided by the client.',
       tech: [
         { tag: 'React.js', caption: 'React Hooks, Styled-components, Axios' },
         { tag: 'Strapi', caption: 'Headless-CMS powered by Node.js' },
       ],
       gitHubLink: 'http://www.github.com/sejostrand/la-compania',
       liveLink: 'http:/www.lacompania.cl/',
-      coverImg: yachtdropCover,
+      coverImg: lacompaniaCover,
     },
   ];
 

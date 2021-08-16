@@ -25,10 +25,10 @@ const Landing = (props) => {
           I'm an Industrial Engineer who taught himself Web Development.
         </div>
         <p class='text-white mx-2 my-6 max-w-2xl'>
-          Why? Eventually, I want to create my own company and build projects
-          that will improve the quality of life for others. Before I get there,
-          I want to learn as much as I can from those I work with, and give back
-          as much as possible while doing so.
+          Why? Eventually, I want to create my own company and build great
+          projects that can improve the quality of life for those who need it.
+          Before I get there, I want to learn as much as I can from those I work
+          with, and give back as much as possible while doing so.
         </p>
         <div class='flex flex-row flex-wrap m-2'>
           <button
